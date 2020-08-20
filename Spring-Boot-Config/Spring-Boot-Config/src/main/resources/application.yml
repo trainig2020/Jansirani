@@ -1,0 +1,16 @@
+
+server.port: 8084
+
+my:
+   greeting: Hello Jansi
+   list:
+        values: one,two,three
+
+dataValues: "{connectionString : 'http:__',userName : 'foo',password :'pass'}"
+
+db:
+   connection: "{connectionString : 'http:__',userName : 'foo', password :'pass'}"
+   host: 127.0.0.1
+   port: 1200
+   
+management.endpoints.web.exposure.include: "*"
