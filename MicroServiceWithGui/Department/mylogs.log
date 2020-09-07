@@ -1,0 +1,244 @@
+2020-09-07 19:10:13.143  INFO 15940 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-09-07 19:10:14.295  INFO 15940 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-09-07 19:10:14.296  WARN 15940 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/department-service/production": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-09-07 19:10:14.300  INFO 15940 --- [restartedMain] com.rest.DepartmentApplication           : The following profiles are active: production
+2020-09-07 19:10:15.591  INFO 15940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-07 19:10:15.955  INFO 15940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 345ms. Found 1 JPA repository interfaces.
+2020-09-07 19:10:16.557  INFO 15940 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=919d1c79-5050-3409-bb68-27de233de955
+2020-09-07 19:10:18.490  INFO 15940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-09-07 19:10:18.512  INFO 15940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-07 19:10:18.512  INFO 15940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 19:10:18.893  INFO 15940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-07 19:10:18.893  INFO 15940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4552 ms
+2020-09-07 19:10:19.217  INFO 15940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 19:10:19.360  INFO 15940 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-07 19:10:19.524  WARN 15940 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 19:10:19.524  INFO 15940 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 19:10:19.538  WARN 15940 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 19:10:19.539  INFO 15940 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 19:10:19.604  INFO 15940 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-07 19:10:19.860  WARN 15940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-07 19:10:20.176  INFO 15940 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-07 19:10:20.530  INFO 15940 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-07 19:10:21.451  INFO 15940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-07 19:10:22.131  INFO 15940 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2020-09-07 19:10:22.138  INFO 15940 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-07 19:10:22.204  INFO 15940 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-09-07 19:10:23.019  WARN 15940 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-07 19:10:23.470  INFO 15940 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-07 19:10:23.656  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-07 19:10:23.870  INFO 15940 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-07 19:10:23.871  INFO 15940 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-07 19:10:24.247  INFO 15940 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-07 19:10:24.248  INFO 15940 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-07 19:10:24.727  INFO 15940 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-07 19:10:24.743  INFO 15940 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:10:24.747  INFO 15940 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-07 19:10:24.898  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-07 19:10:24.899  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-07 19:10:24.900  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-07 19:10:24.900  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-07 19:10:24.901  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-07 19:10:24.901  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-07 19:10:24.902  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-07 19:10:25.174  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-07 19:10:25.183  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-07 19:10:25.188  INFO 15940 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-07 19:10:25.195  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1599486025194 with initial instances count: 1
+2020-09-07 19:10:25.206  INFO 15940 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2020-09-07 19:10:25.208  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599486025208, current=UP, previous=STARTING]
+2020-09-07 19:10:25.237  INFO 15940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-LIP6DHCR:department-service:8081: registering service...
+2020-09-07 19:10:25.271  INFO 15940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-07 19:10:25.281  INFO 15940 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2020-09-07 19:10:25.465  INFO 15940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-LIP6DHCR:department-service:8081 - registration status: 204
+2020-09-07 19:10:26.256  INFO 15940 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-07 19:10:26.807  INFO 15940 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-07 19:10:26.829  INFO 15940 --- [restartedMain] com.rest.DepartmentApplication           : Started DepartmentApplication in 16.274 seconds (JVM running for 17.413)
+2020-09-07 19:15:12.250  INFO 15940 --- [http-nio-8081-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07 19:15:12.250  INFO 15940 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-07 19:15:12.273  INFO 15940 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2020-09-07 19:15:12.358  INFO 15940 --- [http-nio-8081-exec-9] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:15:12.359  INFO 15940 --- [http-nio-8081-exec-9] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:15:14.176  INFO 15940 --- [http-nio-8081-exec-10] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:15:14.177  INFO 15940 --- [http-nio-8081-exec-10] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:15:19.942  INFO 15940 --- [http-nio-8081-exec-7] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:15:19.943  INFO 15940 --- [http-nio-8081-exec-7] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:15:22.308  INFO 15940 --- [http-nio-8081-exec-5] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:15:22.309  INFO 15940 --- [http-nio-8081-exec-5] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:15:24.907  INFO 15940 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:15:41.924  INFO 15940 --- [http-nio-8081-exec-3] c.rest.controller.DepartmentController   : From Department application departmentController addDepartment
+2020-09-07 19:15:41.924  INFO 15940 --- [http-nio-8081-exec-3] com.rest.service.DepartmentServiceImpl   : From Department application department Service insert department
+2020-09-07 19:15:42.358  INFO 15940 --- [http-nio-8081-exec-4] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:15:42.358  INFO 15940 --- [http-nio-8081-exec-4] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:15:44.928  INFO 15940 --- [http-nio-8081-exec-1] c.rest.controller.DepartmentController   : From Department application departmentController getById
+2020-09-07 19:15:44.928  INFO 15940 --- [http-nio-8081-exec-1] com.rest.service.DepartmentServiceImpl   : From Department application department Service get department by id
+2020-09-07 19:15:54.825  INFO 15940 --- [http-nio-8081-exec-2] c.rest.controller.DepartmentController   : From Department application departmentController updateDepartment
+2020-09-07 19:15:54.825  INFO 15940 --- [http-nio-8081-exec-2] com.rest.service.DepartmentServiceImpl   : From Department application department Service update department
+2020-09-07 19:15:56.668  INFO 15940 --- [http-nio-8081-exec-8] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:15:56.669  INFO 15940 --- [http-nio-8081-exec-8] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:15:59.902  INFO 15940 --- [http-nio-8081-exec-6] c.rest.controller.DepartmentController   : From Department application departmentController deleteById
+2020-09-07 19:15:59.903  INFO 15940 --- [http-nio-8081-exec-6] com.rest.service.DepartmentServiceImpl   : From Department application department Service delete department by id
+2020-09-07 19:15:59.970  INFO 15940 --- [http-nio-8081-exec-9] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:15:59.971  INFO 15940 --- [http-nio-8081-exec-9] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:16:04.840  INFO 15940 --- [http-nio-8081-exec-10] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:16:04.841  INFO 15940 --- [http-nio-8081-exec-10] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:16:04.872  INFO 15940 --- [http-nio-8081-exec-7] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:16:04.872  INFO 15940 --- [http-nio-8081-exec-7] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:16:07.595  INFO 15940 --- [http-nio-8081-exec-5] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:16:07.595  INFO 15940 --- [http-nio-8081-exec-5] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:16:33.118  INFO 15940 --- [http-nio-8081-exec-3] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:16:33.119  INFO 15940 --- [http-nio-8081-exec-3] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:16:47.194  INFO 15940 --- [http-nio-8081-exec-4] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:16:47.195  INFO 15940 --- [http-nio-8081-exec-4] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:16:52.017  INFO 15940 --- [http-nio-8081-exec-1] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:16:52.018  INFO 15940 --- [http-nio-8081-exec-1] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:16:56.294  INFO 15940 --- [http-nio-8081-exec-2] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:16:56.294  INFO 15940 --- [http-nio-8081-exec-2] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:16:56.323  INFO 15940 --- [http-nio-8081-exec-8] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:16:56.324  INFO 15940 --- [http-nio-8081-exec-8] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:17:02.385  INFO 15940 --- [http-nio-8081-exec-6] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:17:02.386  INFO 15940 --- [http-nio-8081-exec-6] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:17:12.418  INFO 15940 --- [http-nio-8081-exec-9] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:17:12.419  INFO 15940 --- [http-nio-8081-exec-9] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:17:33.819  INFO 15940 --- [http-nio-8081-exec-10] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:17:33.820  INFO 15940 --- [http-nio-8081-exec-10] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:17:49.527  INFO 15940 --- [http-nio-8081-exec-7] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:17:49.527  INFO 15940 --- [http-nio-8081-exec-7] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:17:58.002  INFO 15940 --- [http-nio-8081-exec-5] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:17:58.003  INFO 15940 --- [http-nio-8081-exec-5] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:18:14.912  INFO 15940 --- [http-nio-8081-exec-3] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:18:14.913  INFO 15940 --- [http-nio-8081-exec-3] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:18:32.344  INFO 15940 --- [http-nio-8081-exec-4] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:18:32.344  INFO 15940 --- [http-nio-8081-exec-4] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:20:24.909  INFO 15940 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:25:24.912  INFO 15940 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:30:24.914  INFO 15940 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:45:32.397  WARN 15940 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m10s108ms806µs543ns).
+2020-09-07 19:46:05.020  INFO 15940 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:47:58.474  INFO 15940 --- [http-nio-8081-exec-2] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:47:58.475  INFO 15940 --- [http-nio-8081-exec-2] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:48:24.784  INFO 15940 --- [http-nio-8081-exec-8] c.rest.controller.DepartmentController   : From Department application departmentController addDepartment
+2020-09-07 19:48:24.784  INFO 15940 --- [http-nio-8081-exec-8] com.rest.service.DepartmentServiceImpl   : From Department application department Service insert department
+2020-09-07 19:48:24.943  INFO 15940 --- [http-nio-8081-exec-6] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:48:24.944  INFO 15940 --- [http-nio-8081-exec-6] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:48:26.800  INFO 15940 --- [http-nio-8081-exec-9] c.rest.controller.DepartmentController   : From Department application departmentController getById
+2020-09-07 19:48:26.801  INFO 15940 --- [http-nio-8081-exec-9] com.rest.service.DepartmentServiceImpl   : From Department application department Service get department by id
+2020-09-07 19:48:37.977  INFO 15940 --- [http-nio-8081-exec-10] c.rest.controller.DepartmentController   : From Department application departmentController updateDepartment
+2020-09-07 19:48:37.978  INFO 15940 --- [http-nio-8081-exec-10] com.rest.service.DepartmentServiceImpl   : From Department application department Service update department
+2020-09-07 19:48:38.086  INFO 15940 --- [http-nio-8081-exec-7] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:48:38.089  INFO 15940 --- [http-nio-8081-exec-7] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:48:41.285  INFO 15940 --- [http-nio-8081-exec-5] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:48:41.286  INFO 15940 --- [http-nio-8081-exec-5] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:48:50.810  INFO 15940 --- [http-nio-8081-exec-3] c.rest.controller.DepartmentController   : From Department application departmentController deleteById
+2020-09-07 19:48:50.810  INFO 15940 --- [http-nio-8081-exec-3] com.rest.service.DepartmentServiceImpl   : From Department application department Service delete department by id
+2020-09-07 19:48:50.916  INFO 15940 --- [http-nio-8081-exec-4] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:48:50.916  INFO 15940 --- [http-nio-8081-exec-4] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:48:53.759  INFO 15940 --- [http-nio-8081-exec-1] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:48:53.759  INFO 15940 --- [http-nio-8081-exec-1] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:48:57.839  INFO 15940 --- [http-nio-8081-exec-2] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:48:57.839  INFO 15940 --- [http-nio-8081-exec-2] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:48:57.863  INFO 15940 --- [http-nio-8081-exec-8] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:48:57.863  INFO 15940 --- [http-nio-8081-exec-8] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:48:59.922  INFO 15940 --- [http-nio-8081-exec-6] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:48:59.923  INFO 15940 --- [http-nio-8081-exec-6] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:49:05.197  INFO 15940 --- [http-nio-8081-exec-9] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:49:05.198  INFO 15940 --- [http-nio-8081-exec-9] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:49:05.222  INFO 15940 --- [http-nio-8081-exec-10] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:49:05.223  INFO 15940 --- [http-nio-8081-exec-10] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:49:36.400  INFO 15940 --- [http-nio-8081-exec-7] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:49:36.401  INFO 15940 --- [http-nio-8081-exec-7] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:49:40.825  INFO 15940 --- [http-nio-8081-exec-5] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:49:40.826  INFO 15940 --- [http-nio-8081-exec-5] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:49:40.852  INFO 15940 --- [http-nio-8081-exec-3] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:49:40.853  INFO 15940 --- [http-nio-8081-exec-3] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:49:50.836  INFO 15940 --- [http-nio-8081-exec-4] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:49:50.837  INFO 15940 --- [http-nio-8081-exec-4] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:49:55.721  INFO 15940 --- [http-nio-8081-exec-1] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:49:55.721  INFO 15940 --- [http-nio-8081-exec-1] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:50:47.730  INFO 15940 --- [http-nio-8081-exec-2] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:50:47.730  INFO 15940 --- [http-nio-8081-exec-2] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:50:50.877  INFO 15940 --- [http-nio-8081-exec-8] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:50:50.878  INFO 15940 --- [http-nio-8081-exec-8] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:51:05.022  INFO 15940 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:51:51.315  INFO 15940 --- [Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEPARTMENT-SERVICE with eureka with status DOWN
+2020-09-07 19:51:51.316  WARN 15940 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599488511316, current=DOWN, previous=UP]
+2020-09-07 19:51:51.317  INFO 15940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-LIP6DHCR:department-service:8081: registering service...
+2020-09-07 19:51:51.330  INFO 15940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-LIP6DHCR:department-service:8081 - registration status: 204
+2020-09-07 19:51:51.707  WARN 15940 --- [Thread-8] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 19:51:51.707  INFO 15940 --- [Thread-8] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 19:51:51.712  INFO 15940 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-07 19:51:51.729  INFO 15940 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 19:51:51.734  INFO 15940 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-07 19:51:51.745  INFO 15940 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-07 19:51:51.747  INFO 15940 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-07 19:51:54.756  INFO 15940 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-07 19:51:54.785  INFO 15940 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-LIP6DHCR:department-service:8081 - deregister  status: 200
+2020-09-07 19:51:54.861  INFO 15940 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-07 19:51:56.200  INFO 15940 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-09-07 19:51:56.924  WARN 15940 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2020-09-07 19:51:56.927  INFO 15940 --- [restartedMain] com.rest.DepartmentApplication           : The following profiles are active: production
+2020-09-07 19:51:58.863  INFO 15940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-07 19:51:58.910  INFO 15940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 1 JPA repository interfaces.
+2020-09-07 19:52:00.012  INFO 15940 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=919d1c79-5050-3409-bb68-27de233de955
+2020-09-07 19:52:03.909  INFO 15940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-09-07 19:52:03.911  INFO 15940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-07 19:52:03.912  INFO 15940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 19:52:04.101  INFO 15940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-07 19:52:04.102  INFO 15940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7163 ms
+2020-09-07 19:52:06.351  INFO 15940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 19:52:06.837  INFO 15940 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-07 19:52:07.941  WARN 15940 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 19:52:07.944  INFO 15940 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 19:52:08.131  WARN 15940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-07 19:52:08.893  INFO 15940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-07 19:52:09.216  INFO 15940 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2020-09-07 19:52:09.268  INFO 15940 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-09-07 19:52:09.384  INFO 15940 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-09-07 19:52:09.385  INFO 15940 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-09-07 19:52:09.634  INFO 15940 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-07 19:52:09.635  INFO 15940 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-07 19:52:10.203  WARN 15940 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-07 19:52:10.320  INFO 15940 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-07 19:52:10.327  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-07 19:52:10.335  INFO 15940 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-07 19:52:10.336  INFO 15940 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-07 19:52:10.336  INFO 15940 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-07 19:52:10.336  INFO 15940 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-07 19:52:10.660  INFO 15940 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:52:10.662  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-07 19:52:10.662  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-07 19:52:10.663  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-07 19:52:10.663  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-07 19:52:10.663  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-07 19:52:10.663  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-07 19:52:10.663  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-07 19:52:10.675  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-07 19:52:10.677  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-07 19:52:10.678  INFO 15940 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-07 19:52:10.679  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1599488530679 with initial instances count: 5
+2020-09-07 19:52:10.687  INFO 15940 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2020-09-07 19:52:10.687  INFO 15940 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599488530687, current=UP, previous=STARTING]
+2020-09-07 19:52:10.731  INFO 15940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-LIP6DHCR:department-service:8081: registering service...
+2020-09-07 19:52:10.737  INFO 15940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-07 19:52:10.750  INFO 15940 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2020-09-07 19:52:10.768  INFO 15940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/LAPTOP-LIP6DHCR:department-service:8081 - registration status: 204
+2020-09-07 19:52:11.224  INFO 15940 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-07 19:52:11.405  INFO 15940 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-07 19:52:11.434  INFO 15940 --- [restartedMain] com.rest.DepartmentApplication           : Started DepartmentApplication in 16.06 seconds (JVM running for 2522.023)
+2020-09-07 19:52:11.438  INFO 15940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-07 19:52:51.337  INFO 15940 --- [http-nio-8081-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07 19:52:51.337  INFO 15940 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-07 19:52:51.347  INFO 15940 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-09-07 19:52:51.363  INFO 15940 --- [http-nio-8081-exec-10] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:52:51.363  INFO 15940 --- [http-nio-8081-exec-10] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:52:52.749  INFO 15940 --- [http-nio-8081-exec-8] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:52:52.749  INFO 15940 --- [http-nio-8081-exec-8] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:52:54.253  INFO 15940 --- [http-nio-8081-exec-4] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:52:54.253  INFO 15940 --- [http-nio-8081-exec-4] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:52:54.276  INFO 15940 --- [http-nio-8081-exec-9] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:52:54.276  INFO 15940 --- [http-nio-8081-exec-9] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:52:55.611  INFO 15940 --- [http-nio-8081-exec-7] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:52:55.611  INFO 15940 --- [http-nio-8081-exec-7] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:53:05.380  INFO 15940 --- [http-nio-8081-exec-3] c.rest.controller.DepartmentController   : From Department application departmentController getAllDepartment Details
+2020-09-07 19:53:05.381  INFO 15940 --- [http-nio-8081-exec-3] com.rest.service.DepartmentServiceImpl   : From Department application department Service get all department details
+2020-09-07 19:57:10.666  INFO 15940 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

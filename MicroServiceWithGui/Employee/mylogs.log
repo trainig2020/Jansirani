@@ -1,0 +1,178 @@
+2020-09-07 19:10:47.152  INFO 7600 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-09-07 19:10:48.408  INFO 7600 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-09-07 19:10:48.409  WARN 7600 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/employee-service/production": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-09-07 19:10:48.414  INFO 7600 --- [restartedMain] com.rest.EmployeeApplication             : The following profiles are active: production
+2020-09-07 19:10:49.616  INFO 7600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-07 19:10:49.943  INFO 7600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 307ms. Found 1 JPA repository interfaces.
+2020-09-07 19:10:50.493  INFO 7600 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1a810738-4cc3-34d6-a7d7-96231b9508f2
+2020-09-07 19:10:52.035  INFO 7600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-09-07 19:10:52.054  INFO 7600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-07 19:10:52.054  INFO 7600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 19:10:52.362  INFO 7600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-07 19:10:52.362  INFO 7600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3913 ms
+2020-09-07 19:10:52.651  INFO 7600 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 19:10:52.742  INFO 7600 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-07 19:10:52.802  WARN 7600 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 19:10:52.802  INFO 7600 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 19:10:52.819  WARN 7600 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 19:10:52.819  INFO 7600 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 19:10:52.937  INFO 7600 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-07 19:10:52.990  WARN 7600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-07 19:10:53.351  INFO 7600 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-07 19:10:53.608  INFO 7600 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-07 19:10:53.945  WARN 7600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-07 19:10:54.564  INFO 7600 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2020-09-07 19:10:55.000  INFO 7600 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-07 19:10:55.053  INFO 7600 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-09-07 19:10:55.389  WARN 7600 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-07 19:10:55.695  INFO 7600 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-07 19:10:56.098  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-07 19:10:56.349  INFO 7600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-07 19:10:56.349  INFO 7600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-07 19:10:57.069  INFO 7600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-07 19:10:57.070  INFO 7600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-07 19:10:57.522  INFO 7600 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:10:57.695  INFO 7600 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-07 19:10:57.715  INFO 7600 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-07 19:10:57.726  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-07 19:10:57.726  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-07 19:10:57.726  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-07 19:10:57.727  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-07 19:10:57.727  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-07 19:10:57.727  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-07 19:10:57.728  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-07 19:10:58.039  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-07 19:10:58.048  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-07 19:10:58.053  INFO 7600 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-07 19:10:58.060  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1599486058058 with initial instances count: 2
+2020-09-07 19:10:58.064  INFO 7600 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-SERVICE with eureka with status UP
+2020-09-07 19:10:58.066  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599486058066, current=UP, previous=STARTING]
+2020-09-07 19:10:58.069  INFO 7600 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/LAPTOP-LIP6DHCR:employee-service:8082: registering service...
+2020-09-07 19:10:58.122  INFO 7600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-09-07 19:10:58.125  INFO 7600 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2020-09-07 19:10:58.176  INFO 7600 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/LAPTOP-LIP6DHCR:employee-service:8082 - registration status: 204
+2020-09-07 19:10:58.376  INFO 7600 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-07 19:10:59.130  INFO 7600 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-07 19:10:59.147  INFO 7600 --- [restartedMain] com.rest.EmployeeApplication             : Started EmployeeApplication in 14.432 seconds (JVM running for 15.53)
+2020-09-07 19:15:57.734  INFO 7600 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:16:05.237  INFO 7600 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07 19:16:05.239  INFO 7600 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-07 19:16:05.344  INFO 7600 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 103 ms
+2020-09-07 19:16:05.507  INFO 7600 --- [http-nio-8082-exec-1] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:16:05.507  INFO 7600 --- [http-nio-8082-exec-1] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:16:07.617  INFO 7600 --- [http-nio-8082-exec-2] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:16:07.617  INFO 7600 --- [http-nio-8082-exec-2] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:16:32.838  INFO 7600 --- [http-nio-8082-exec-3] com.rest.controller.EmployeeController   : From Employee application employee controller adding new employee
+2020-09-07 19:16:32.838  INFO 7600 --- [http-nio-8082-exec-3] com.rest.service.EmployeeServiceImpl     : From Employee application employee service creating new  employees
+2020-09-07 19:16:33.150  INFO 7600 --- [http-nio-8082-exec-4] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:16:33.150  INFO 7600 --- [http-nio-8082-exec-4] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:16:47.085  INFO 7600 --- [http-nio-8082-exec-5] com.rest.controller.EmployeeController   : From Employee application employee controller updating employee records
+2020-09-07 19:16:47.086  INFO 7600 --- [http-nio-8082-exec-5] com.rest.service.EmployeeServiceImpl     : From Employee application employee service updating employees
+2020-09-07 19:16:47.234  INFO 7600 --- [http-nio-8082-exec-6] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:16:47.234  INFO 7600 --- [http-nio-8082-exec-6] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:16:51.891  INFO 7600 --- [http-nio-8082-exec-7] com.rest.controller.EmployeeController   : From Employee application employee controller deleting employee
+2020-09-07 19:16:51.891  INFO 7600 --- [http-nio-8082-exec-7] com.rest.service.EmployeeServiceImpl     : From Employee application employee service deleting employees
+2020-09-07 19:16:52.045  INFO 7600 --- [http-nio-8082-exec-8] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:16:52.045  INFO 7600 --- [http-nio-8082-exec-8] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:16:56.345  INFO 7600 --- [http-nio-8082-exec-9] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:16:56.345  INFO 7600 --- [http-nio-8082-exec-9] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:17:02.289  INFO 7600 --- [http-nio-8082-exec-10] com.rest.controller.EmployeeController   : From Employee application employee controller updating employee records
+2020-09-07 19:17:02.289  INFO 7600 --- [http-nio-8082-exec-10] com.rest.service.EmployeeServiceImpl     : From Employee application employee service updating employees
+2020-09-07 19:17:02.409  INFO 7600 --- [http-nio-8082-exec-1] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:17:02.410  INFO 7600 --- [http-nio-8082-exec-1] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:20:57.737  INFO 7600 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:25:57.739  INFO 7600 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:30:57.743  INFO 7600 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:45:35.266  WARN 7600 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m10s109ms391µs538ns).
+2020-09-07 19:46:37.848  INFO 7600 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:48:57.881  INFO 7600 --- [http-nio-8082-exec-2] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:48:57.881  INFO 7600 --- [http-nio-8082-exec-2] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:48:59.942  INFO 7600 --- [http-nio-8082-exec-3] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:48:59.942  INFO 7600 --- [http-nio-8082-exec-3] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:49:05.241  INFO 7600 --- [http-nio-8082-exec-4] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:49:05.241  INFO 7600 --- [http-nio-8082-exec-4] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:49:36.231  INFO 7600 --- [http-nio-8082-exec-5] com.rest.controller.EmployeeController   : From Employee application employee controller adding new employee
+2020-09-07 19:49:36.231  INFO 7600 --- [http-nio-8082-exec-5] com.rest.service.EmployeeServiceImpl     : From Employee application employee service creating new  employees
+2020-09-07 19:49:36.443  INFO 7600 --- [http-nio-8082-exec-6] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:49:36.444  INFO 7600 --- [http-nio-8082-exec-6] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:49:40.870  INFO 7600 --- [http-nio-8082-exec-7] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:49:40.871  INFO 7600 --- [http-nio-8082-exec-7] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:49:50.567  INFO 7600 --- [http-nio-8082-exec-8] com.rest.controller.EmployeeController   : From Employee application employee controller updating employee records
+2020-09-07 19:49:50.567  INFO 7600 --- [http-nio-8082-exec-8] com.rest.service.EmployeeServiceImpl     : From Employee application employee service updating employees
+2020-09-07 19:49:50.870  INFO 7600 --- [http-nio-8082-exec-9] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:49:50.871  INFO 7600 --- [http-nio-8082-exec-9] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:49:55.635  INFO 7600 --- [http-nio-8082-exec-10] com.rest.controller.EmployeeController   : From Employee application employee controller deleting employee
+2020-09-07 19:49:55.635  INFO 7600 --- [http-nio-8082-exec-10] com.rest.service.EmployeeServiceImpl     : From Employee application employee service deleting employees
+2020-09-07 19:49:55.744  INFO 7600 --- [http-nio-8082-exec-1] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:49:55.744  INFO 7600 --- [http-nio-8082-exec-1] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:51:37.849  INFO 7600 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:51:53.211  INFO 7600 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EMPLOYEE-SERVICE with eureka with status DOWN
+2020-09-07 19:51:53.212  WARN 7600 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599488513212, current=DOWN, previous=UP]
+2020-09-07 19:51:53.216  INFO 7600 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/LAPTOP-LIP6DHCR:employee-service:8082: registering service...
+2020-09-07 19:51:53.229  INFO 7600 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/LAPTOP-LIP6DHCR:employee-service:8082 - registration status: 204
+2020-09-07 19:51:53.404  INFO 7600 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-07 19:51:53.412  INFO 7600 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 19:51:53.416  INFO 7600 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-07 19:51:53.430  INFO 7600 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-07 19:51:53.431  INFO 7600 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-07 19:51:56.480  INFO 7600 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-07 19:51:56.800  INFO 7600 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/LAPTOP-LIP6DHCR:employee-service:8082 - deregister  status: 200
+2020-09-07 19:51:56.828  INFO 7600 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-07 19:52:04.100  INFO 7600 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-09-07 19:52:04.145  WARN 7600 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: None of labels [] found
+2020-09-07 19:52:04.195  INFO 7600 --- [restartedMain] com.rest.EmployeeApplication             : The following profiles are active: production
+2020-09-07 19:52:06.315  INFO 7600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-07 19:52:06.519  INFO 7600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 203ms. Found 1 JPA repository interfaces.
+2020-09-07 19:52:07.245  INFO 7600 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1a810738-4cc3-34d6-a7d7-96231b9508f2
+2020-09-07 19:52:08.068  INFO 7600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-09-07 19:52:08.069  INFO 7600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-07 19:52:08.074  INFO 7600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 19:52:08.122  INFO 7600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-07 19:52:08.123  INFO 7600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3417 ms
+2020-09-07 19:52:10.426  INFO 7600 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 19:52:10.450  INFO 7600 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-07 19:52:10.514  WARN 7600 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 19:52:10.514  INFO 7600 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 19:52:10.615  WARN 7600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-07 19:52:11.144  WARN 7600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-07 19:52:11.650  INFO 7600 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2020-09-07 19:52:12.011  WARN 7600 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-07 19:52:12.106  INFO 7600 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-09-07 19:52:12.124  INFO 7600 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-07 19:52:12.131  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-07 19:52:12.186  INFO 7600 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-09-07 19:52:12.187  INFO 7600 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-09-07 19:52:12.202  INFO 7600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-07 19:52:12.202  INFO 7600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-07 19:52:12.202  INFO 7600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-07 19:52:12.202  INFO 7600 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-07 19:52:12.299  INFO 7600 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-07 19:52:12.300  INFO 7600 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-07 19:52:12.411  INFO 7600 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 19:52:12.437  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-07 19:52:12.438  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-07 19:52:12.438  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-07 19:52:12.438  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-07 19:52:12.438  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-07 19:52:12.438  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-07 19:52:12.438  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-07 19:52:12.445  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-07 19:52:12.446  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-07 19:52:12.447  INFO 7600 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-07 19:52:12.449  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1599488532449 with initial instances count: 5
+2020-09-07 19:52:12.451  INFO 7600 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-SERVICE with eureka with status UP
+2020-09-07 19:52:12.452  INFO 7600 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599488532452, current=UP, previous=STARTING]
+2020-09-07 19:52:12.461  INFO 7600 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/LAPTOP-LIP6DHCR:employee-service:8082: registering service...
+2020-09-07 19:52:12.477  INFO 7600 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/LAPTOP-LIP6DHCR:employee-service:8082 - registration status: 204
+2020-09-07 19:52:12.480  INFO 7600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-09-07 19:52:12.481  INFO 7600 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2020-09-07 19:52:12.871  INFO 7600 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-07 19:52:12.990  INFO 7600 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-07 19:52:13.006  INFO 7600 --- [restartedMain] com.rest.EmployeeApplication             : Started EmployeeApplication in 15.237 seconds (JVM running for 2489.393)
+2020-09-07 19:52:13.012  INFO 7600 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-07 19:52:54.291  INFO 7600 --- [http-nio-8082-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07 19:52:54.292  INFO 7600 --- [http-nio-8082-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-07 19:52:54.299  INFO 7600 --- [http-nio-8082-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-09-07 19:52:54.303  INFO 7600 --- [http-nio-8082-exec-10] com.rest.controller.EmployeeController   : From Employee application employee controller get employees by department id
+2020-09-07 19:52:54.303  INFO 7600 --- [http-nio-8082-exec-10] com.rest.service.EmployeeServiceImpl     : From Employee application employee service get employee details by department id
+2020-09-07 19:57:12.440  INFO 7600 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
